@@ -86,6 +86,11 @@ img{
     max-width: 100%;
     height: auto;
     display: block;
+    
+}
+
+.about__img img :hover{
+    transform: rotateY('360deg');
 }
 
 /* dark theme */
@@ -130,6 +135,7 @@ img{
     transition: all 0.5s ease-in-out;
     margin-left: 11%;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: none;
 }
 #CVBTN:hover{
     color: black;
@@ -304,6 +310,7 @@ nav ul{
 }
 .about__img img{
     width: 100px;
+    transition: all 0.5s ease-in-out;
 }
 .about__subtitle{
     font-size: var(--h2-font-size);
